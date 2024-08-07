@@ -1,0 +1,20 @@
+H264Plus H264 H265 H265x Video converter from dvr.
+Convert video without need download chine's software.
+
+Created on leaked proprietary software (H264Play.h) and copy paste already installed components (H264Play.dll, StreamReader.dll).
+You must copy self copy dll from you recorder software.
+
+Use ctypes with dll import.
+Working only on windows python 32-bit version. You must use embed python version.
+
+To use: python h264_converter.py --help
+
+Futures features:
+1) Build to docker image with wine.
+2) Automatic convert output AVI to MP4
+
+P.S H264Play.dll and StreamReader.dll is proprietary software, this copy from app install.
+
+Special thanks:
+https://github.com/anyboo/uilib/blob/master/TRobot/Robot/DZPVendor/sdk/H264Play.h
+https://www.nirsoft.net/utils/dll_export_viewer.html
